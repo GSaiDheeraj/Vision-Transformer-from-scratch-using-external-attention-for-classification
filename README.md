@@ -19,6 +19,7 @@ out = M_v( attn ) # s h a p e = (B , N, C)
 
 external attention, which computes attention between the
 input pixels and an external memory unit M ∈ R^(S×d), via:
+
 A = (α)i,j = Norm(FM)
 
 Fout = AM.
